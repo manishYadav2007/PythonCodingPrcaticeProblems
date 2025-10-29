@@ -1,7 +1,7 @@
 # numbers = list(map(int, input("Enter the list elements: " ).split()))
 
 
-numbers = [2, 5, 1, 4, 3]
+numbers = [5, 2, 3, 10, 6, 8]
 k = 10 
 
 subarray_elements = []

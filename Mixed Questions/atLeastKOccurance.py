@@ -2,6 +2,8 @@
 
 
 def at_least_k_occurance(arr, k):
+# This code snippet defines a function called `at_least_k_occurance` that takes two parameters: `arr`
+# (a list of integers) and `k` (an integer).
     dict_result = {}
     for i in arr:
         dict_result[i] = dict_result.get(i, 0) + 1  
@@ -16,6 +18,7 @@ def at_least_k_occurance(arr, k):
 
 arr  = [1, 7, 4, 3, 4, 8, 7]
 k = 2 
+
 
 
 result = at_least_k_occurance(arr, k)
