@@ -72,6 +72,7 @@ def find_sub_array_sum(arr, target_sum):
 
 
 
+
 arr  = list(map(int, input("Enter the list items: ").split()))
 target_sum = int(input("Enter the target value: "))
 

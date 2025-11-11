@@ -5,7 +5,6 @@ def get_sum_of_array(array):
         return 0 
     
     max_so_far = -math.inf 
-    print(max_so_far) 
     current_sum = 0 
     
     for num in array:

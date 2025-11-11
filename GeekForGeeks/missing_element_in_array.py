@@ -21,8 +21,9 @@
 def missingNumber(arr):
     n = len(arr) + 1 
     expected_sum = n * (n + 1) / 2 
+    print(expected_sum)
     return int(expected_sum - sum(arr)) 
-
+    
 
 arr =[1, 2, 3, 5]
 result = missingNumber(arr)
