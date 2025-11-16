@@ -21,7 +21,7 @@ def longest_subarray_with_0_sum(arr):
     for i, val in enumerate(arr):
         # print(f"Index: {i} Value: {val}")
         prefix += val 
-
+        
         if prefix not in first_index:
             first_index[prefix] = i 
         else:
